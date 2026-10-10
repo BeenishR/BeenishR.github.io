@@ -243,4 +243,381 @@
             margin-bottom: 1.75rem;
         }
 
-        .sidebar-section
+        .sidebar-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .sidebar-title {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 0.85rem;
+            font-weight: 700;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 0.4rem;
+        }
+
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .badge {
+            background-color: #f1f5f9;
+            color: var(--primary);
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.825rem;
+            font-weight: 500;
+            border: 1px solid var(--border);
+        }
+
+        .cert-item {
+            margin-bottom: 0.85rem;
+            font-size: 0.875rem;
+        }
+
+        .cert-name {
+            font-weight: 600;
+            color: var(--primary);
+            display: block;
+        }
+
+        .cert-issuer {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        /* Contact Section */
+        .contact-card {
+            text-align: center;
+            background: var(--primary);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            grid-column: 1 / -1;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .contact-card h2 {
+            color: white;
+            border: none;
+        }
+
+        .contact-card p {
+            color: #cbd5e1;
+            max-width: 550px;
+            margin: 0 auto 1.75rem;
+        }
+
+        .email-display {
+            font-family: monospace;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            color: #38bdf8;
+            font-size: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2.5rem 1rem;
+            color: #ffffff;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-container">
+        <a href="#" class="nav-logo">Beenish Rasheed</a>
+        <div class="nav-links">
+            <a href="#about">My Story</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="hero">
+    <div class="greeting">Hi, I'm Beenish 👋</div>
+    <h1>Bridging sustainable strategy, global trade compliance, and operational execution.</h1>
+    <p class="intro">
+        I bring over 8 years of leadership across international supply chain management, trade policy execution, and customs governance—paired with hands-on Scope 3 carbon accounting and ESG strategy expertise from Columbia University.
+    </p>
+    <div class="cta-buttons">
+        <a href="https://www.linkedin.com/in/beenishrasheed" target="_blank" class="btn btn-primary">Let's Connect</a>
+        <a href="mailto:br2791@columbia.edu" class="btn btn-outline">br2791@columbia.edu</a>
+    </div>
+</div>
+
+<div class="main-layout">
+
+    <!-- LEFT COLUMN: Narrative & Detailed Experience -->
+    <main>
+        
+        <!-- Story / About -->
+        <section class="card" id="about">
+            <h2>My Journey & Perspective</h2>
+            <p>
+                My career began on the front lines of global trade in the Pakistan Customs Service, where I spent over eight years leading large-scale operations, implementing trade policy, managing airport logistics, and running complex procurement initiatives[cite: 1]. Managing border compliance and trade flows gave me a deep, realistic understanding of how global commerce operates under high-stakes pressures[cite: 1].
+            </p>
+            <p>
+                However, seeing the massive reach of global supply chains drove me to explore how we can make them both resilient and environmentally accountable[cite: 1]. That ambition led me to Columbia University’s M.S. in Sustainability Management, where I’ve focused on Scope 3 emissions modeling, net-zero strategy, and climate disclosure compliance[cite: 1].
+            </p>
+            <div class="callout">
+                <p>I thrive at the intersection of regulatory compliance, vendor procurement, and sustainability—helping organizations build resilient supply chains that meet both bottom-line targets and net-zero commitments[cite: 1].</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="card" id="experience">
+            <h2>Professional Experience</h2>
+
+            <!-- Fox Corp -->
+            <div style="margin-bottom: 2.25rem;">
+                <div class="role-header">
+                    <div class="role-title">Sustainability Intern</div>
+                    <div class="role-meta">Fox Corporation &bull; Los Angeles, CA</div>
+                    <div class="role-subtext">Jun 2026 – Aug 2026</div>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;">
+                    Focused on private-sector Scope 3 emissions quantification and supplier engagement strategies to support climate disclosure readiness[cite: 1]:
+                </p>
+                <ul class="story-list">
+                    <li>Developed a Scope 3 emissions quantification and reporting methodology to support compliance readiness for California SB 253 climate disclosure requirements[cite: 1].</li>
+                    <li>Evaluated 4,000+ suppliers across 450+ spend categories (representing 80% of total Scope 3 emissions) using Excel and Replit to model and visualize supplier- and category-level carbon impact[cite: 1].</li>
+                    <li>Segmented suppliers into priority tiers for primary data collection, designing a roadmap to shift 30% of Scope 3 quantification from spend-based estimates to verified primary data[cite: 1].</li>
+                    <li>Presented emissions methodology and supplier prioritization strategies to SVP leadership, initiating direct manager-led outreach to priority suppliers for primary data collection[cite: 1].</li>
+                </ul>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #e2e8f0; margin: 2rem 0;">
+
+            <!-- Pakistan Customs - Senior Role -->
+            <div style="margin-bottom: 2.25rem;">
+                <div class="role-header">
+                    <div class="role-title">Deputy Collector — Strategic Operations, Governance & Intelligence</div>
+                    <div class="role-meta">Pakistan Customs Service (Federal Board of Revenue) &bull; Islamabad, Pakistan</div>
+                    <div class="role-subtext">Dec 2023 – Jul 2025 | Ministry of Finance</div>
+                </div>
+                <ul class="story-list">
+                    <li>Administered operations for a 500-person department and managed an annual budget of PKR 45–50M (~$160K), optimizing resource allocation by 12% through KPI-driven performance reviews[cite: 1].</li>
+                    <li>Designed and executed a national intelligence reporting framework, collecting field data, mapping smuggling routes, and delivering strategic reports directly to the FBR Chairman to inform policy[cite: 1].</li>
+                    <li>Led a national recruitment drive screening 12,000+ applicants and onboarding 40 operatives; managed PPRA-regulated competitive bidding procurement under a PKR 3.4M budget for venues, catering, and operational logistics[cite: 1].</li>
+                    <li>Designed a comprehensive training curriculum covering physical training, Excel/R analytics, and customs regulations to build lasting organizational capacity[cite: 1].</li>
+                    <li>Recovered commercial goods worth PKR 4.7 billion (~$16.5M) through central intelligence coordination and drafted policy proposals that resulted in revised tariff structures on machinery[cite: 1].</li>
+                </ul>
+            </div>
+
+            <!-- Pakistan Customs - Airport Role -->
+            <div style="margin-bottom: 2.25rem;">
+                <div class="role-header">
+                    <div class="role-title">Deputy Collector — Trade Operations, Islamabad International Airport</div>
+                    <div class="role-meta">Pakistan Customs Service (Federal Board of Revenue) &bull; Islamabad, Pakistan</div>
+                    <div class="role-subtext">Oct 2021 – Dec 2023</div>
+                </div>
+                <ul class="story-list">
+                    <li>Led a team of 110 customs staff managing cargo operations, clearing 1,500+ metric tons weekly including time-sensitive diplomatic, defense, and cold-chain pharmaceutical shipments[cite: 1].</li>
+                    <li>Led the airport pilot deployment of the Pakistan Single Window (PSW), integrating real-time clearance with DRAP (Drug Regulatory Authority), cutting cargo transaction times by 50% and transitioning to paperless operations[cite: 1].</li>
+                    <li>Reduced average cargo dwell time by 80% (from 5 days to 1 day) using Excel regression analysis to optimize 24/7 staffing schedules; cleared non-compliant cargo worth $870,000 via auction[cite: 1].</li>
+                    <li>Managed infrastructure procurement (PKR 5.5M budget) via PPRA competitive bidding for CCTV, telecom, and facility upgrades[cite: 1].</li>
+                    <li>Partnered with 25 international airlines, ground handlers, and freight brokers to standardize clearance SOPs, achieving 100% on-time clearance for critical supply chains[cite: 1].</li>
+                    <li>Served as operational lead for the federal 'Road to Mecca' initiative, overseeing seamless immigration and clearance for 83,000+ pilgrims and 4,200 metric tons of cargo[cite: 1].</li>
+                </ul>
+            </div>
+
+            <!-- Pakistan Customs - Multan Role -->
+            <div style="margin-bottom: 2.25rem;">
+                <div class="role-header">
+                    <div class="role-title">Assistant Collector — Trade Operations, Multan Dry Port</div>
+                    <div class="role-meta">Pakistan Customs Service (Federal Board of Revenue) &bull; Multan, Pakistan</div>
+                    <div class="role-subtext">Aug 2019 – Oct 2021</div>
+                </div>
+                <ul class="story-list">
+                    <li>Determined HS classification, customs valuation, and country-of-origin verification across raw materials, machinery, apparel, and consumer goods per WCO standards[cite: 1].</li>
+                    <li>Monitored Export Processing Zone (EPZ) bonded manufacturing, verifying minimum 20% value-addition thresholds per IOCO standards prior to re-export[cite: 1].</li>
+                    <li>Maintained fuel supply stability for 30% of Pakistan's national demand during COVID-19 by modeling demand across 7 Oil Marketing Company depots[cite: 1].</li>
+                    <li>Developed the structural policy framework for the Export Facilitation Scheme (EFS), allowing duty-free raw material imports that contributed to a 12% national export spike (2021–2022)[cite: 1].</li>
+                    <li>Managed full office establishment and vendor procurement under a PKR 50M (~$180K) budget through PPRA-regulated public tenders[cite: 1].</li>
+                </ul>
+            </div>
+
+            <!-- Pakistan Customs - Enforcement -->
+            <div style="margin-bottom: 2.25rem;">
+                <div class="role-header">
+                    <div class="role-title">Assistant Collector — Enforcement & Law Division</div>
+                    <div class="role-meta">Pakistan Customs Service &bull; Pakistan</div>
+                    <div class="role-subtext">Feb 2019 – Aug 2019</div>
+                </div>
+                <ul class="story-list">
+                    <li>Recovered $1.13M in revenue by deploying GPS cargo tracking and enhanced border crossing surveillance across high-value trade routes[cite: 1].</li>
+                    <li>Led multi-agency anti-smuggling operations recovering $500,000+ in goods and audited systemic pilferage points to recover PKR 283M[cite: 1].</li>
+                </ul>
+            </div>
+
+            <!-- Zakfas Pharma -->
+            <div>
+                <div class="role-header">
+                    <div class="role-title">Quality Control Officer</div>
+                    <div class="role-meta">Zakfas Pharmaceuticals &bull; Multan, Pakistan</div>
+                    <div class="role-subtext">Jan 2015 – Aug 2017</div>
+                </div>
+                <ul class="story-list">
+                    <li>Managed raw material procurement, supplier coordination, and temperature-controlled cold chain inventory to prevent production downtime[cite: 1].</li>
+                    <li>Oversaw full-cycle quality control and sterile formulation for injectables (including Zoxicam release), standardizing warehouse SOPs to boost distribution throughput by 10%[cite: 1].</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Key Projects -->
+        <section class="card" id="projects">
+            <h2>Applied Sustainability Projects</h2>
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h3 style="font-size: 1.1rem; color: var(--primary); margin-bottom: 0.25rem;">Net-Zero Supply Chain Roadmap — City Construction Group</h3>
+                <div style="color: #0284c7; font-size: 0.875rem; margin-bottom: 0.5rem;">Columbia University Client Engagement &bull; Miami, FL (2025)</div>
+                <p style="font-size: 0.95rem; margin: 0;">
+                    Analyzed supplier emissions data using Python (Pandas, Matplotlib) to build a net-zero roadmap projecting 100% Scope 1 & 2 reductions and 50–60% Scope 3 reductions by 2030, establishing standardized supplier performance metrics and enforcement safeguards[cite: 1].
+                </p>
+            </div>
+
+            <div>
+                <h3 style="font-size: 1.1rem; color: var(--primary); margin-bottom: 0.25rem;">Business Strategy & Impact Analysis — Butterfly Effect Leadership</h3>
+                <div style="color: #0284c7; font-size: 0.875rem; margin-bottom: 0.5rem;">Columbia University Engagement &bull; New York, NY (2026)</div>
+                <p style="font-size: 0.95rem; margin: 0;">
+                    Served as Project Manager for a comprehensive market landscape analysis and business plan, executing competitive benchmarking and opportunity mapping for leadership impact strategies[cite: 1].
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RIGHT COLUMN: Sidebar (Skills, Education, Certifications, Leadership) -->
+    <aside>
+        
+        <!-- Sidebar Card -->
+        <div style="position: sticky; top: 90px;">
+            <div class="card" style="padding: 1.75rem;">
+                
+                <!-- Core Domain Skills -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Core Competencies</h3>
+                    <div class="badge-list">
+                        <span class="badge">Supply Chain Operations</span>
+                        <span class="badge">Trade Compliance</span>
+                        <span class="badge">HS Classification</span>
+                        <span class="badge">Customs Valuation</span>
+                        <span class="badge">Vendor Procurement</span>
+                        <span class="badge">Scope 3 Emissions</span>
+                        <span class="badge">Carbon Accounting</span>
+                        <span class="badge">SB 253 Compliance</span>
+                        <span class="badge">Bonded Manufacturing</span>
+                        <span class="badge">Cold Chain Logistics</span>
+                        <span class="badge">Process Optimization</span>
+                        <span class="badge">Policy Drafting</span>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Technical Tools</h3>
+                    <div class="badge-list">
+                        <span class="badge">Python (Pandas/Matplotlib)</span>
+                        <span class="badge">R</span>
+                        <span class="badge">Excel Regression</span>
+                        <span class="badge">Demand Modeling</span>
+                        <span class="badge">Replit</span>
+                        <span class="badge">Data Visualization</span>
+                        <span class="badge">Dashboarding</span>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Certifications</h3>
+                    
+                    <div class="cert-item">
+                        <span class="cert-name">100 Days of Code: Python Pro</span>
+                        <span class="cert-issuer">Udemy</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Strategic Trade & Export Control</span>
+                        <span class="cert-issuer">Container Control Program, UNODC</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Trade Facilitation Training</span>
+                        <span class="cert-issuer">ICMPD</span>
+                    </div>
+                    <div class="cert-item">
+                        <span class="cert-name">Criminal Intelligence & Risk Analysis</span>
+                        <span class="cert-issuer">Container Control Program, UNODC</span>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Education</h3>
+                    
+                    <div style="margin-bottom: 0.85rem;">
+                        <strong style="color: var(--primary); font-size: 0.9rem; display: block;">M.S. in Sustainability Management</strong>
+                        <span style="color: var(--text-muted); font-size: 0.825rem; display: block;">Columbia University (STEM)</span>
+                        <span style="color: #0284c7; font-size: 0.8rem;">2025 – 2026</span>
+                    </div>
+
+                    <div style="margin-bottom: 0.85rem;">
+                        <strong style="color: var(--primary); font-size: 0.9rem; display: block;">Leadership Training Program</strong>
+                        <span style="color: var(--text-muted); font-size: 0.825rem; display: block;">Civil Services Academy, FBR</span>
+                        <span style="color: var(--text-muted); font-size: 0.8rem;">2017 – 2019</span>
+                    </div>
+
+                    <div>
+                        <strong style="color: var(--primary); font-size: 0.9rem; display: block;">Doctor of Pharmacy (PharmD)</strong>
+                        <span style="color: var(--text-muted); font-size: 0.825rem; display: block;">Bahauddin Zakariya University</span>
+                        <span style="color: var(--text-muted); font-size: 0.8rem;">2009 – 2014</span>
+                    </div>
+                </div>
+
+                <!-- Languages & Leadership -->
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Languages & Leadership</h3>
+                    <p style="font-size: 0.85rem; margin-bottom: 0.5rem; color: var(--text);">
+                        <strong>Languages:</strong> English (Fluent), Urdu (Native), French (Intermediate)[cite: 1]
+                    </p>
+                    <p style="font-size: 0.85rem; margin: 0; color: var(--text-muted);">
+                        <strong>Community:</strong> Director of Events (Sky & Meditation Yoga Club, Columbia) &bull; Flood & COVID Relief Volunteer[cite: 1].
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </aside>
+
+    <!-- Full Width Contact Card -->
+    <div class="contact-card" id="contact">
+        <h2>Let's Connect</h2>
+        <p>
+            I am currently seeking Manager and Senior Manager roles in Supply Chain, Trade Compliance, Procurement, or Sustainability/ESG[cite: 1]. Feel free to reach out directly!
+        </p>
+        <div class="email-display">br2791@columbia.edu</div>
+        <br>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="mailto:br2791@columbia.edu" class="btn btn-primary" style="background-color: white; color: var(--primary);">Send an Email</a>
+            <a href="https://www.linkedin.com/in/beenishrasheed" target="_blank" class="btn btn-outline" style="background-color: transparent; color: white; border-color: rgba(255,255,255,0.4);">LinkedIn Profile</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Beenish Rasheed &bull; Powered by GitHub Pages</p>
+</footer>
+
+</body>
+</html>
